@@ -6,8 +6,7 @@
 
 #import "UIView+MainThread.h"
 #import "SwizzingMethod.h"
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wunused-variable"
+
 @implementation UIView (MainThread)
 + (void)load {
     static dispatch_once_t onceToken;
@@ -40,6 +39,8 @@
     [self wq_setNeedsDisplayInRect:rect];
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunused-variable"
 - (void)viewDrawRectIsMainThread {
 
     NSString *errorLog = [NSString stringWithFormat:@"class:%@",self.class];
