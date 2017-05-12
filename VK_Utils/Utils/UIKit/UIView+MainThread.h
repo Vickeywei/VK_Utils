@@ -6,6 +6,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (isMainThread)
+@interface UIView (MainThread)
 
 @end

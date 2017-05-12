@@ -4,10 +4,10 @@
 //  Copyright © 2017年 com.drcacom.com. All rights reserved.
 //
 
-#import "UIView+isMainThread.h"
+#import "UIView+MainThread.h"
 #import "SwizzingMethod.h"
 
-@implementation UIView (isMainThread)
+@implementation UIView (MainThread)
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

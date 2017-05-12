@@ -48,7 +48,7 @@
 		BAB980331EC5469E00D99DE9 /* UIImageView+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB980161EC5469E00D99DE9 /* UIImageView+Dashed.m */; };
 		BAB980341EC5469E00D99DE9 /* UILabel+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB980181EC5469E00D99DE9 /* UILabel+Property.m */; };
 		BAB980351EC5469E00D99DE9 /* UINavigationController+ShouldPop.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9801A1EC5469E00D99DE9 /* UINavigationController+ShouldPop.m */; };
-		BAB980361EC5469E00D99DE9 /* UIView+isMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9801C1EC5469E00D99DE9 /* UIView+isMainThread.m */; };
+		BAB980361EC5469E00D99DE9 /* UIView+MainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9801C1EC5469E00D99DE9 /* UIView+MainThread.m */; };
 		BAB980371EC5469E00D99DE9 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9801E1EC5469E00D99DE9 /* UIView+Layout.m */; };
 		BAB980381EC5469E00D99DE9 /* UIViewController+Route.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB980201EC5469E00D99DE9 /* UIViewController+Route.m */; };
 		BAB980391EC5469E00D99DE9 /* UIViewController+TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB980221EC5469E00D99DE9 /* UIViewController+TopViewController.m */; };
@@ -139,8 +139,8 @@
 		BAB980181EC5469E00D99DE9 /* UILabel+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Property.m"; sourceTree = "<group>"; };
 		BAB980191EC5469E00D99DE9 /* UINavigationController+ShouldPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ShouldPop.h"; sourceTree = "<group>"; };
 		BAB9801A1EC5469E00D99DE9 /* UINavigationController+ShouldPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ShouldPop.m"; sourceTree = "<group>"; };
-		BAB9801B1EC5469E00D99DE9 /* UIView+isMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+isMainThread.h"; sourceTree = "<group>"; };
-		BAB9801C1EC5469E00D99DE9 /* UIView+isMainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+isMainThread.m"; sourceTree = "<group>"; };
+		BAB9801B1EC5469E00D99DE9 /* UIView+MainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MainThread.h"; sourceTree = "<group>"; };
+		BAB9801C1EC5469E00D99DE9 /* UIView+MainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MainThread.m"; sourceTree = "<group>"; };
 		BAB9801D1EC5469E00D99DE9 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		BAB9801E1EC5469E00D99DE9 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		BAB9801F1EC5469E00D99DE9 /* UIViewController+Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Route.h"; sourceTree = "<group>"; };
@@ -316,8 +316,8 @@
 				BAB980181EC5469E00D99DE9 /* UILabel+Property.m */,
 				BAB980191EC5469E00D99DE9 /* UINavigationController+ShouldPop.h */,
 				BAB9801A1EC5469E00D99DE9 /* UINavigationController+ShouldPop.m */,
-				BAB9801B1EC5469E00D99DE9 /* UIView+isMainThread.h */,
-				BAB9801C1EC5469E00D99DE9 /* UIView+isMainThread.m */,
+				BAB9801B1EC5469E00D99DE9 /* UIView+MainThread.h */,
+				BAB9801C1EC5469E00D99DE9 /* UIView+MainThread.m */,
 				BAB9801D1EC5469E00D99DE9 /* UIView+Layout.h */,
 				BAB9801E1EC5469E00D99DE9 /* UIView+Layout.m */,
 				BAB9801F1EC5469E00D99DE9 /* UIViewController+Route.h */,
@@ -498,7 +498,7 @@
 				BAB97FEB1EC5462D00D99DE9 /* NSDate+Formatter.m in Sources */,
 				BAB9802F1EC5469E00D99DE9 /* UIImage+Clip.m in Sources */,
 				BAB97FFE1EC5462D00D99DE9 /* NSString+Width.m in Sources */,
-				BAB980361EC5469E00D99DE9 /* UIView+isMainThread.m in Sources */,
+				BAB980361EC5469E00D99DE9 /* UIView+MainThread.m in Sources */,
 				BAB97FF91EC5462D00D99DE9 /* NSString+Paths.m in Sources */,
 				BAB97FEC1EC5462D00D99DE9 /* NSDictionary+Path.m in Sources */,
 			);
