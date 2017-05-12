@@ -24,7 +24,7 @@
  *
  *  验证是否为手机号
  *
- *  @return
+ *
  */
 - (BOOL)validatePhoneNumber;
 
@@ -33,7 +33,7 @@
  *
  *  验证是否合法（一般用于校验输入密码场景 假如字符串不属于英文字母大小写或数字 会返回NO）
  *
- *  @return
+ * 
  */
 - (BOOL)validateIsForbidden;
 
