@@ -62,14 +62,14 @@
 		B41021ECAC7367D429A34D07 /* libPods-VK_Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VK_Utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB97FA01EC545DE00D99DE9 /* VK_Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK_Utils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB97FA41EC545DE00D99DE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BAB97FA61EC545DE00D99DE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BAB97FA71EC545DE00D99DE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BAB97FA91EC545DE00D99DE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BAB97FAA1EC545DE00D99DE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAB97FA61EC545DE00D99DE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../VK_Utils/AppDelegate.h; sourceTree = "<group>"; };
+		BAB97FA71EC545DE00D99DE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../VK_Utils/AppDelegate.m; sourceTree = "<group>"; };
+		BAB97FA91EC545DE00D99DE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../VK_Utils/ViewController.h; sourceTree = "<group>"; };
+		BAB97FAA1EC545DE00D99DE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../VK_Utils/ViewController.m; sourceTree = "<group>"; };
 		BAB97FAD1EC545DE00D99DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BAB97FAF1EC545DE00D99DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB97FAF1EC545DE00D99DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../VK_Utils/Assets.xcassets; sourceTree = "<group>"; };
 		BAB97FB21EC545DE00D99DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BAB97FB41EC545DE00D99DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB97FB41EC545DE00D99DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../VK_Utils/Info.plist; sourceTree = "<group>"; };
 		BAB97FBB1EC5462D00D99DE9 /* NSCharacterSet+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+HTML.h"; path = "../NSCharacterSet+HTML.h"; sourceTree = "<group>"; };
 		BAB97FBC1EC5462D00D99DE9 /* NSCharacterSet+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSCharacterSet+HTML.m"; path = "../NSCharacterSet+HTML.m"; sourceTree = "<group>"; };
 		BAB97FBD1EC5462D00D99DE9 /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Encryption.h"; path = "../NSData+Encryption.h"; sourceTree = "<group>"; };
@@ -188,6 +188,7 @@
 		BAB97F971EC545DD00D99DE9 = {
 			isa = PBXGroup;
 			children = (
+				BAB9803F1EC5999400D99DE9 /* AppDelegate */,
 				BAB97FA21EC545DE00D99DE9 /* VK_Utils */,
 				BAB97FA11EC545DE00D99DE9 /* Products */,
 				3E4DAA63F3764F2E937670E4 /* Pods */,
@@ -207,15 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				BAB97FBA1EC5461900D99DE9 /* Utils */,
-				BAB97FA61EC545DE00D99DE9 /* AppDelegate.h */,
-				BAB97FA71EC545DE00D99DE9 /* AppDelegate.m */,
-				BAB97FA91EC545DE00D99DE9 /* ViewController.h */,
-				BAB97FAA1EC545DE00D99DE9 /* ViewController.m */,
-				BAB97FAC1EC545DE00D99DE9 /* Main.storyboard */,
-				BAB97FAF1EC545DE00D99DE9 /* Assets.xcassets */,
-				BAB97FB11EC545DE00D99DE9 /* LaunchScreen.storyboard */,
-				BAB97FB41EC545DE00D99DE9 /* Info.plist */,
-				BAB97FA31EC545DE00D99DE9 /* Supporting Files */,
 			);
 			path = VK_Utils;
 			sourceTree = "<group>";
@@ -226,6 +218,7 @@
 				BAB97FA41EC545DE00D99DE9 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ../VK_Utils;
 			sourceTree = "<group>";
 		};
 		BAB97FBA1EC5461900D99DE9 /* Utils */ = {
@@ -332,6 +325,22 @@
 				BAB9802A1EC5469E00D99DE9 /* WQNavigationViewController.m */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BAB9803F1EC5999400D99DE9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BAB97FA61EC545DE00D99DE9 /* AppDelegate.h */,
+				BAB97FA71EC545DE00D99DE9 /* AppDelegate.m */,
+				BAB97FA91EC545DE00D99DE9 /* ViewController.h */,
+				BAB97FAA1EC545DE00D99DE9 /* ViewController.m */,
+				BAB97FAC1EC545DE00D99DE9 /* Main.storyboard */,
+				BAB97FAF1EC545DE00D99DE9 /* Assets.xcassets */,
+				BAB97FB11EC545DE00D99DE9 /* LaunchScreen.storyboard */,
+				BAB97FB41EC545DE00D99DE9 /* Info.plist */,
+				BAB97FA31EC545DE00D99DE9 /* Supporting Files */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,6 +522,7 @@
 				BAB97FAD1EC545DE00D99DE9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../VK_Utils;
 			sourceTree = "<group>";
 		};
 		BAB97FB11EC545DE00D99DE9 /* LaunchScreen.storyboard */ = {
@@ -521,6 +531,7 @@
 				BAB97FB21EC545DE00D99DE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../VK_Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
