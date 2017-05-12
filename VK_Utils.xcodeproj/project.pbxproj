@@ -52,7 +52,6 @@
 		BAB980371EC5469E00D99DE9 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9801E1EC5469E00D99DE9 /* UIView+Layout.m */; };
 		BAB980381EC5469E00D99DE9 /* UIViewController+Route.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB980201EC5469E00D99DE9 /* UIViewController+Route.m */; };
 		BAB980391EC5469E00D99DE9 /* UIViewController+TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB980221EC5469E00D99DE9 /* UIViewController+TopViewController.m */; };
-		BAB9803A1EC5469E00D99DE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB980241EC5469E00D99DE9 /* ViewController.m */; };
 		BAB9803B1EC5469E00D99DE9 /* VKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB980261EC5469E00D99DE9 /* VKBase64.m */; };
 		BAB9803C1EC5469E00D99DE9 /* VKFPS.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB980281EC5469E00D99DE9 /* VKFPS.m */; };
 		BAB9803D1EC5469E00D99DE9 /* WQNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9802A1EC5469E00D99DE9 /* WQNavigationViewController.m */; };
@@ -148,8 +147,6 @@
 		BAB980201EC5469E00D99DE9 /* UIViewController+Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Route.m"; sourceTree = "<group>"; };
 		BAB980211EC5469E00D99DE9 /* UIViewController+TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopViewController.h"; sourceTree = "<group>"; };
 		BAB980221EC5469E00D99DE9 /* UIViewController+TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopViewController.m"; sourceTree = "<group>"; };
-		BAB980231EC5469E00D99DE9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BAB980241EC5469E00D99DE9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BAB980251EC5469E00D99DE9 /* VKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKBase64.h; sourceTree = "<group>"; };
 		BAB980261EC5469E00D99DE9 /* VKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKBase64.m; sourceTree = "<group>"; };
 		BAB980271EC5469E00D99DE9 /* VKFPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKFPS.h; sourceTree = "<group>"; };
@@ -327,8 +324,6 @@
 				BAB980201EC5469E00D99DE9 /* UIViewController+Route.m */,
 				BAB980211EC5469E00D99DE9 /* UIViewController+TopViewController.h */,
 				BAB980221EC5469E00D99DE9 /* UIViewController+TopViewController.m */,
-				BAB980231EC5469E00D99DE9 /* ViewController.h */,
-				BAB980241EC5469E00D99DE9 /* ViewController.m */,
 				BAB980251EC5469E00D99DE9 /* VKBase64.h */,
 				BAB980261EC5469E00D99DE9 /* VKBase64.m */,
 				BAB980271EC5469E00D99DE9 /* VKFPS.h */,
@@ -462,7 +457,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB9803A1EC5469E00D99DE9 /* ViewController.m in Sources */,
 				BAB980311EC5469E00D99DE9 /* UIImage+CutScreen.m in Sources */,
 				BAB97FF31EC5462D00D99DE9 /* NSString+DES.m in Sources */,
 				BAB9802E1EC5469E00D99DE9 /* UIColor+Hex.m in Sources */,
@@ -667,6 +661,7 @@
 				BAB97FB91EC545DE00D99DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
