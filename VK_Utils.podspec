@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "VK_Utils"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "iOS常用工具库"
   s.homepage     = "https://github.com/Vickeywei/VK_Utils"
   s.license      = {
@@ -15,15 +15,12 @@ Pod::Spec.new do |s|
   s.authors      = { 'Vickeywei' => 'weiqi@hzdracom.com' }
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
-  s.osx.deployment_target = "10.7"
-  s.watchos.deployment_target = "2.0"
-  s.tvos.deployment_target = "9.0"
 
 
 
-  s.source       = { :git => "https://github.com/Vickeywei/VK_Utils.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Vickeywei/VK_Utils.git", :tag => "0.0.2" }
 
-  s.source_files  = "VK_Utils", "Utils/**/*.{h,m}"
+  s.source_files  = "VK_Utils", "VK_Utils/Utils/**/*.{h,m}"
 
   s.requires_arc = true
 
