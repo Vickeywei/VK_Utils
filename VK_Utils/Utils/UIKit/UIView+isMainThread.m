@@ -40,7 +40,7 @@
 }
 
 - (void)viewDrawRectIsMainThread {
-    NSString *isMainthread = [NSString stringWithFormat:@"class:%@",self.class];
-    NSAssert([NSThread isMainThread], isMainthread);
+    NSString *errorLog = [NSString stringWithFormat:@"class:%@",self.class];
+    NSAssert([NSThread isMainThread], errorLog);
 }
 @end
