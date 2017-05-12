@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "VK_Utils"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "iOS常用工具库"
   s.homepage     = "https://github.com/Vickeywei/VK_Utils"
   s.license      = {
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/Vickeywei/VK_Utils.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/Vickeywei/VK_Utils.git", :tag => "1.0.2" }
 
   s.source_files  = "VK_Utils", "VK_Utils/Utils/**/*.{h,m}"
 
